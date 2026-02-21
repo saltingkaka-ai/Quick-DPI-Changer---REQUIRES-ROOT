@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DPI Changer</string>
+    <string name="channel_name">DPI Service</string>
+    <string name="channel_description">Persistent DPI control notification</string>
+    <string name="notification_title">DPI Changer Active</string>
+    <string name="enter_dpi">Enter DPI</string>
+    <string name="apply">Apply</string>
+    <string name="reset">Reset</string>
+    <string name="warning_high_dpi">High DPI Warning</string>
+    <string name="warning_message">DPI above 1000 may make UI extremely small. Continue?</string>
+    <string name="continue_btn">Continue</string>
+    <string name="cancel">Cancel</string>
+    <string name="presets">Presets</string>
+    <string name="add_preset">Add Preset</string>
+    <string name="edit_preset">Edit Preset</string>
+    <string name="preset_name">Preset Name</string>
+    <string name="dpi_value">DPI Value</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="import_presets">Import</string>
+    <string name="export_presets">Export</string>
+    <string name="no_presets">No presets yet</string>
+    <string name="root_required">Root access required</string>
+    <string name="root_not_available">This app requires root access to function</string>
+</resources>
