@@ -2,6 +2,7 @@ package com.dpi.changer.ui.screens
 
 import android.content.Intent
 import androidx.compose.animation.*
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -150,7 +151,7 @@ fun MainScreen(
             LazyColumn(
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
-                items(presets.take(5)) { preset ->
+                items(presets.take(5), key = { it.id }) { preset ->
                     PresetItem(
                         preset = preset,
                         onClick = {
